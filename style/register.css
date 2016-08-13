@@ -1,0 +1,45 @@
+.body {
+    width: 462px;
+    height: 360px;
+    border: 1px black solid;
+    margin: 100px auto;
+    text-align: center;
+    /*background-color: #e0e0e0;*/
+    font-weight: bold;
+}
+
+.body-main {
+    width: 100%;
+    height: 230px;
+    margin-top: 150px;
+}.body-head{
+     margin-top: 20px;
+     font-size: 1.6em;
+ }
+.username {
+    margin: 30px auto;
+    width: 80%;
+}
+
+.password {
+    margin: 10px auto;
+    width: 80%;
+}
+
+input {
+    height: 25px;
+    width:70%;
+}
+
+.submit {
+    height: 30px;
+}
+
+.body-foot {
+    height: 30px;
+    width: 50px;
+    margin: 10px auto;
+    margin-top: 0px;
+}
+
+

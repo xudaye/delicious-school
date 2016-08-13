@@ -1,0 +1,101 @@
+.frame {
+    width: 100%;
+    height: auto;
+}
+
+.frame-1 {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    background-color: deeppink;
+    line-height: 40px;
+    font-color: white;
+}
+
+.frame-2 {
+    width: 5%;
+    height: auto;
+    border: 1px solid;
+    margin-top: 180px;
+    margin-left: 1%;
+    float: left;
+}
+
+.frame-3 {
+    width: 85%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 180px;
+    float: left;
+}
+
+.frame-4 {
+    width: auto;
+    height: 400px;
+}
+
+.frame-4-1 {
+    float: right;
+    text-align: center;
+}
+
+.frame-3-1 {
+    width: 260px;
+    height: 260px;
+    float: left;
+    margin-left: 10px;
+}
+
+.frame-3-2 {
+    width: 260px;
+    height: 260px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+.frame-3-3 {
+    width: 260px;
+    height: 260px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+.frame-3-4 {
+    width: 260px;
+    height: 260px;
+    float: left;
+    margin-left: 10%;
+}
+
+.picture {
+    width: 30px;
+    height: 40px;
+    float: left;
+}
+
+.name {
+    float: left;
+}
+
+.img-1 {
+    width: 250px;
+    height: 250px;
+}
+
+.img-2 {
+    width: 100%;
+    height: 600px;
+    margin: 0px auto;
+}
+
+.carousel-inner {
+    margin-top: 0px;
+}
+
+.index-nav-wrap {
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+}
+

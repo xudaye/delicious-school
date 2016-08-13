@@ -10,7 +10,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 require('jquery');
 require("bootstrap-webpack");
-require('./style.css');
 
 const router = <Router history={hashHistory}>
   <Route path='/' component={App}>
@@ -27,6 +26,8 @@ ReactDOM.render(
     router,
     document.getElementById('content')
 );
+
+
 
 // Notice!!!
 // Following is required to make reloading happen
