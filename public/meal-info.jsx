@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router';
+import request from 'superagent';
 import $ from 'jquery';
 let count = 1;
 
@@ -57,12 +58,23 @@ export default class MealInfo extends Component {
     const self = this;
     const url = location.href;
     let id = url.split('=')[1].split('&')[0];
-    $.post('/mealInfo', {id: id}, function (mealInfo) {
-      self.setState({
-        mealInfo: mealInfo,
-        // count:1
-      });
-    });
+  //  $.post('/mealInfo', {id: id}, function (mealInfo) {
+  //    self.setState({
+  //      mealInfo: mealInfo,
+  //      // count:1
+  //    });
+  //  });
+
+    request.post('/mealInfo')
+      .send({
+        id:id
+      })
+      .end((err,res) =>{
+        const mealInfo = res.body;
+        self.setState({
+          mealInfo:mealInfo,
+        });
+      })
   }
 
   addCount(num) {
